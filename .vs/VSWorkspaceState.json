@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\data_structure",
+    "\\data_structure\\queue",
+    "\\data_structure\\queue\\loop_queue",
+    "\\data_structure\\stack",
+    "\\data_structure\\tree",
+    "\\data_structure\\tree\\binary_tree",
+    "\\out",
+    "\\out\\build"
+  ],
+  "SelectedNode": "\\data_structure\\queue\\loop_queue\\loop_queue.cpp",
+  "PreviewInSolutionExplorer": false
+}
