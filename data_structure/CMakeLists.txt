@@ -4,6 +4,10 @@
 cmake_minimum_required (VERSION 3.8)
 
 # 将源代码添加到此项目的可执行文件。
-add_executable (data_structure "data_structure.cpp" "data_structure.h" "link_list/link_list.cpp" "link_list/link_list.h" "stack/stack.cpp" "stack/stack.h" "queue/loop_queue/loop_queue.h" "queue/loop_queue/loop_queue.cpp" "tree/binary_tree/binary_tree.h" "tree/binary_tree/binary_tree.cpp")
+add_executable (data_structure "data_structure.cpp" "data_structure.h" "link_list/link_list.cpp" "link_list/link_list.h" "stack/stack.cpp" "stack/stack.h" "queue/loop_queue/loop_queue.h" "queue/loop_queue/loop_queue.cpp" "tree/binary_tree/binary_tree.h" "tree/binary_tree/binary_tree.cpp" "tree/pre_bin_tree/pre_bin_tree.cpp" "tree/pre_bin_tree/pre_bin_tree.h"
+        tree/hft/hft.h
+        tree/hft/hft.cpp
+        tree/avl_tree/avl.h
+        tree/avl_tree/avl.cpp)
 
 # TODO: 如有需要，请添加测试并安装目标。

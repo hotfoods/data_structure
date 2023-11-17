@@ -7,6 +7,7 @@ using namespace std;
 
 int main()
 {
+    cout<<"hello ";
 	//int a = 1, b = 2;
 	//cout << add(a,b) << endl;
 	/**
@@ -52,15 +53,37 @@ int main()
 	}
 	show_loop_q();
 	**/
-	default_random_engine e;
-	uniform_int_distribution<unsigned> u(0, 100);
-	for (int i = 0; i < 11; i++)
-	{
-		int random = u(e);
-		cout << "将第" << i + 1 << "个随机数" << random << "插入搜索二叉树" << endl;
-		insert_bin_tree(random);
-	}
+//	default_random_engine e;
+//	uniform_int_distribution<unsigned> u(0, 100);
+//	for (int i = 0; i < 11; i++)
+//	{
+//		int random = u(e);
+//		cout << "将第" << i + 1 << "个随机数" << random << "插入搜索二叉树" << endl;
+//		insert_bin_tree(random);
+//	}
 
-	show_bin_tree();
+//	show_bin_tree();
+//    cout << "Preorder traversal of the constructed AVL tree is \n";
+    avl_node *root = NULL;
+
+    /* 测试，最终树结构应该如下图所示：
+            30
+           /  \
+         20   40
+        /  \     \
+       10  25    50
+    */
+    root = avl_insert(root, 10);
+    root = avl_insert(root, 20);
+    root = avl_insert(root, 30);
+    root = avl_insert(root, 40);
+    root = avl_insert(root, 50);
+    root = avl_insert(root, 25);
+
+    cout << "Preorder traversal of the constructed AVL tree is \n";
+    avl_pre_order(root);
+
+    print_pic(root);
+
 	return 0;
 }

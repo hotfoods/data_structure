@@ -112,6 +112,13 @@ build data_structure\CMakeFiles\data_structure.dir\tree\binary_tree\binary_tree.
   TARGET_COMPILE_PDB = data_structure\CMakeFiles\data_structure.dir\
   TARGET_PDB = data_structure\data_structure.pdb
 
+build data_structure\CMakeFiles\data_structure.dir\tree\pre_bin_tree\pre_bin_tree.cpp.obj: CXX_COMPILER__data_structure_Debug C$:\Users\БЄПл\Desktop\leetcode_\cpp\data_structure\data_structure\tree\pre_bin_tree\pre_bin_tree.cpp || cmake_object_order_depends_target_data_structure
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  OBJECT_DIR = data_structure\CMakeFiles\data_structure.dir
+  OBJECT_FILE_DIR = data_structure\CMakeFiles\data_structure.dir\tree\pre_bin_tree
+  TARGET_COMPILE_PDB = data_structure\CMakeFiles\data_structure.dir\
+  TARGET_PDB = data_structure\data_structure.pdb
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target data_structure
@@ -120,7 +127,7 @@ build data_structure\CMakeFiles\data_structure.dir\tree\binary_tree\binary_tree.
 #############################################
 # Link the executable data_structure\data_structure.exe
 
-build data_structure\data_structure.exe: CXX_EXECUTABLE_LINKER__data_structure_Debug data_structure\CMakeFiles\data_structure.dir\data_structure.cpp.obj data_structure\CMakeFiles\data_structure.dir\link_list\link_list.cpp.obj data_structure\CMakeFiles\data_structure.dir\stack\stack.cpp.obj data_structure\CMakeFiles\data_structure.dir\queue\loop_queue\loop_queue.cpp.obj data_structure\CMakeFiles\data_structure.dir\tree\binary_tree\binary_tree.cpp.obj
+build data_structure\data_structure.exe: CXX_EXECUTABLE_LINKER__data_structure_Debug data_structure\CMakeFiles\data_structure.dir\data_structure.cpp.obj data_structure\CMakeFiles\data_structure.dir\link_list\link_list.cpp.obj data_structure\CMakeFiles\data_structure.dir\stack\stack.cpp.obj data_structure\CMakeFiles\data_structure.dir\queue\loop_queue\loop_queue.cpp.obj data_structure\CMakeFiles\data_structure.dir\tree\binary_tree\binary_tree.cpp.obj data_structure\CMakeFiles\data_structure.dir\tree\pre_bin_tree\pre_bin_tree.cpp.obj
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
